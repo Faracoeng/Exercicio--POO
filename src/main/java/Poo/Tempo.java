@@ -17,5 +17,9 @@ public class Tempo {
             this.segundo = segundo;
         }
     }
+    public String toString(){
+        String s = hora + ":" + minuto + ":" + segundo;
+        return s;
+    }
 
 }
